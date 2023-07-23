@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
 import { TUser, TUsersObj } from '../types/hooks/useGetUsers';
-import { redirect } from 'react-router-dom';
 
 const useGetUsers = (id?: string) => {
   const [usersObj, setUsersObj] = useState<TUsersObj>({});
